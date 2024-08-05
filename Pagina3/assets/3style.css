@@ -1,0 +1,53 @@
+.titulo{
+   display: flex; 
+   justify-content: center;
+   margin-top: 10px;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 60px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    font-size: 18px;
+    background: rgb(156, 155, 156);
+    color: rgb(39, 39, 39);
+    transition: 0.5s;
+}
+
+button:hover{
+background: rgb(29, 189, 238);
+color: white;
+}
+
+
+
+.boton{
+display: flex;
+justify-content: center;
+display: grid;
+
+
+}
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.correcto {
+    color: green;
+}
+
+.incorrecto {
+    color: red;
+}
